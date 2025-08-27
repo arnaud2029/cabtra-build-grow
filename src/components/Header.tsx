@@ -56,7 +56,10 @@ const Header = () => {
             <a href="#contact" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
               Contact
             </a>
-            <Button className="btn-cabtra">
+            <Button 
+              className="btn-cabtra"
+              onClick={() => document.getElementById('offres')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Réserver Mon Lot
             </Button>
           </div>
@@ -87,7 +90,10 @@ const Header = () => {
               <a href="#contact" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
                 Contact
               </a>
-              <Button className="btn-cabtra w-full">
+              <Button 
+                className="btn-cabtra w-full"
+                onClick={() => document.getElementById('offres')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Réserver Mon Lot
               </Button>
             </div>
