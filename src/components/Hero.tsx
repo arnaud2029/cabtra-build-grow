@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight, MapPin, Calendar, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroFamily from '@/assets/hero-family.jpg';
+import heroSurveyor from '@/assets/hero-surveyor.jpg';
 
 const Hero = () => {
   return (
@@ -9,9 +9,9 @@ const Hero = () => {
       {/* Background with Gradient Overlay */}
       <div className="absolute inset-0 hero-gradient"></div>
       <div 
-        className="absolute inset-0 opacity-30"
+        className="absolute inset-0 opacity-40"
         style={{
-          backgroundImage: `url(${heroFamily})`,
+          backgroundImage: `url(${heroSurveyor})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
