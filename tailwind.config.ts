@@ -18,7 +18,21 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
+				/* CABTRA Brand Colors */
+				'cabtra-blue': {
+					DEFAULT: 'hsl(var(--cabtra-blue))',
+					light: 'hsl(var(--cabtra-blue-light))',
+				},
+				'cabtra-orange': {
+					DEFAULT: 'hsl(var(--cabtra-orange))',
+					light: 'hsl(var(--cabtra-orange-light))',
+				},
+				/* System Colors */
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -62,6 +76,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'strong': 'var(--shadow-strong)',
+				'glow': 'var(--shadow-glow)',
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

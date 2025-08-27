@@ -5,6 +5,14 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import OffersSection from "./components/OffersSection";
+import ServicesSection from "./components/ServicesSection";
+import FAQSection from "./components/FAQSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 
 const queryClient = new QueryClient();
 
@@ -13,10 +21,10 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <WhatsAppFloat />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
