@@ -79,12 +79,13 @@ const OffersSection = () => {
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-cabtra-orange text-white">Nos Offres Exclusives</Badge>
           <h2 className="font-poppins font-bold text-4xl md:text-5xl mb-6">
-            Terrains Disponibles à 
-            <span className="text-gradient-primary block">Yamoussoukro</span>
+            <span className="text-gradient-primary">Achat terrain Yamoussoukro</span>
+            <br />
+            Lotissement sécurisé CABTRA-CI
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Découvrez nos offres exceptionnelles de terrains de 500m² dans les meilleurs sites 
-            de Yamoussoukro. Paiement cash ou par échelon selon vos besoins.
+            <strong>Promotion immobilière Côte d'Ivoire</strong> - Vente terrain sécurisé à Yamoussoukro. 
+            Lotissement Zambakro, Lolobo, Nzéré avec certificat foncier. Terrain pas cher payable par échéance.
           </p>
         </div>
 

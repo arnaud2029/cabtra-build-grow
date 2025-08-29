@@ -29,18 +29,18 @@ const Hero = () => {
 
           {/* Main Heading */}
           <h1 className="font-poppins font-bold text-5xl md:text-7xl mb-6 leading-tight">
-            ENSEMBLE,
+            <span className="text-gradient-accent">Terrain à vendre</span>
             <br />
-            <span className="text-gradient-accent">Construisons</span>
+            Yamoussoukro
             <br />
-            Demain !
+            CABTRA-CI !
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto leading-relaxed">
-            Terrains de <strong>500 m²</strong> disponibles à Yamoussoukro
+            <strong>Immobilier Yamoussoukro</strong> - Lotissement sécurisé 500 m²
             <br />
-            Prix attractifs & solutions de paiement flexibles
+            Zambakro, Lolobo, Nzéré - <strong>Terrain pas cher</strong> dès 300.000F
           </p>
 
           {/* Key Features */}

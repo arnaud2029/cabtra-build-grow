@@ -39,13 +39,13 @@ const ServicesSection = () => {
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-cabtra-blue text-white">Nos Services</Badge>
           <h2 className="font-poppins font-bold text-4xl md:text-5xl mb-6">
-            <span className="text-gradient-primary">CABTRA-CI</span>
+            <span className="text-gradient-primary">CABTRA-CI Immobilier</span>
             <br />
-            Vos Experts du Bâtiment
+            Spécialiste Terrain Yamoussoukro
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Cabinet d'Architecture du Bâtiment de la Topographie et des Recherches Agronomiques. 
-            Votre partenaire de confiance pour tous vos projets immobiliers et agricoles.
+            <strong>Agence immobilière Yamoussoukro</strong> spécialisée dans la vente terrain sécurisé. 
+            Promotion immobilière Côte d'Ivoire - Lotissement Zambakro, Lolobo, Nzéré avec accompagnement complet.
           </p>
         </div>
 
