@@ -5,7 +5,7 @@ import heroSurveyor from '@/assets/hero-surveyor.jpg';
 
 const Hero = () => {
   return (
-    <section id="accueil" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="accueil" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
       {/* Background with Gradient Overlay */}
       <div className="absolute inset-0 hero-gradient"></div>
       <div 
