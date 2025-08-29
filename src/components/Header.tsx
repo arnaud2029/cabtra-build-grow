@@ -35,7 +35,7 @@ const Header = () => {
           <div className="flex items-center">
             <div className="w-10 h-10 mr-3">
               <img 
-                src="/lovable-uploads/05d3455d-a2bd-4492-92d1-ef8587e26c42.png" 
+                src="/cabtra-logo.png" 
                 alt="CABTRA-CI Logo" 
                 className="w-full h-full object-contain"
               />
