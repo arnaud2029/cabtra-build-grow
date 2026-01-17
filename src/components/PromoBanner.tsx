@@ -66,10 +66,10 @@ const PromoBanner = () => {
               <div className="text-white space-y-6">
                 {/* Title with sparkles */}
                 <div className="relative">
-                  <Sparkles className="absolute -top-4 -left-2 w-8 h-8 text-yellow-400 animate-pulse" />
-                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                  <Sparkles className="absolute -top-3 -left-1 sm:-top-4 sm:-left-2 w-6 h-6 sm:w-8 sm:h-8 text-yellow-400 animate-pulse" />
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
                     Promo Anniversaire
-                    <span className="block text-accent mt-2">CABTRA-CI GROUPE</span>
+                    <span className="block text-accent mt-1 sm:mt-2">CABTRA-CI GROUPE</span>
                   </h2>
                 </div>
 
@@ -84,13 +84,13 @@ const PromoBanner = () => {
 
                 {/* Price Highlight */}
                 <div className="relative">
-                  <div className="bg-gradient-to-r from-accent to-accent/80 rounded-2xl p-6 text-center transform hover:scale-105 transition-transform duration-300 shadow-xl">
-                    <p className="text-white/90 text-sm uppercase tracking-wider mb-1">Prix exceptionnel</p>
-                    <p className="text-4xl md:text-5xl font-extrabold text-white">
-                      1 500 000 <span className="text-2xl">FCFA</span>
+                  <div className="bg-gradient-to-r from-accent to-accent/80 rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center transform hover:scale-105 transition-transform duration-300 shadow-xl">
+                    <p className="text-white/90 text-xs sm:text-sm uppercase tracking-wider mb-1">Prix exceptionnel</p>
+                    <p className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white">
+                      1 500 000 <span className="text-lg sm:text-2xl">FCFA</span>
                     </p>
-                    <div className="mt-3 flex items-center justify-center gap-2 text-white/90">
-                      <span className="bg-white/20 px-3 py-1 rounded-full text-sm font-medium">
+                    <div className="mt-2 sm:mt-3 flex items-center justify-center gap-2 text-white/90">
+                      <span className="bg-white/20 px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
                         500m² - 600m²
                       </span>
                     </div>

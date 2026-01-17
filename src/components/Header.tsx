@@ -10,18 +10,18 @@ const Header = () => {
       {/* Top Info Bar */}
       <div className="bg-cabtra-blue text-white py-2">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center text-sm">
-            <div className="flex items-center space-x-4">
+          <div className="flex flex-col sm:flex-row justify-between items-center text-xs sm:text-sm gap-1 sm:gap-0">
+            <div className="flex items-center space-x-2 sm:space-x-4 flex-wrap justify-center sm:justify-start">
               <div className="flex items-center space-x-1">
-                <Phone className="w-3 h-3" />
-                <span>+225 0767053876</span>
+                <Phone className="w-3 h-3 flex-shrink-0" />
+                <span className="whitespace-nowrap">+225 0767053876</span>
               </div>
-              <div className="flex items-center space-x-1">
-                <MapPin className="w-3 h-3" />
-                <span>Yamoussoukro, Kokrenou Apsonic 1</span>
+              <div className="hidden sm:flex items-center space-x-1">
+                <MapPin className="w-3 h-3 flex-shrink-0" />
+                <span className="whitespace-nowrap">Yamoussoukro</span>
               </div>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <span>CABTRA-CI Group - Cabinet d'Architecture & Topographie</span>
             </div>
           </div>

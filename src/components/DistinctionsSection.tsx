@@ -53,52 +53,52 @@ const DistinctionsSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-500 text-cabtra-blue px-8 py-3 rounded-full font-bold text-lg mb-6 shadow-lg animate-bounce">
-            <Trophy className="w-6 h-6" />
-            <span>DISTINCTION HONORIFIQUE</span>
-            <Trophy className="w-6 h-6" />
+        <div className="text-center mb-10 md:mb-16">
+          <div className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-500 text-cabtra-blue px-4 sm:px-8 py-2 sm:py-3 rounded-full font-bold text-sm sm:text-lg mb-4 sm:mb-6 shadow-lg animate-bounce">
+            <Trophy className="w-4 h-4 sm:w-6 sm:h-6" />
+            <span className="whitespace-nowrap">DISTINCTION HONORIFIQUE</span>
+            <Trophy className="w-4 h-4 sm:w-6 sm:h-6" />
           </div>
           
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-4 font-poppins">
+          <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold text-white mb-2 sm:mb-4 font-poppins">
             <span className="bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 bg-clip-text text-transparent drop-shadow-lg">
               Super Prix National
             </span>
           </h2>
-          <h3 className="text-3xl md:text-5xl font-bold text-white mb-6 font-poppins flex items-center justify-center gap-4">
+          <h3 className="text-xl sm:text-3xl md:text-5xl font-bold text-white mb-4 sm:mb-6 font-poppins flex items-center justify-center gap-2 sm:gap-4">
             <span className="text-yellow-400">🏆</span>
-            ÉLÉPHANT D'OR
+            <span>ÉLÉPHANT D'OR</span>
             <span className="text-yellow-400">🏆</span>
           </h3>
 
-          <div className="flex flex-wrap items-center justify-center gap-4 text-white/90 text-lg">
-            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <Calendar className="w-5 h-5 text-yellow-400" />
-              Vendredi 16 janvier 2026
+          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-2 sm:gap-4 text-white/90 text-sm sm:text-lg">
+            <span className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full backdrop-blur-sm">
+              <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400" />
+              <span className="whitespace-nowrap">Vendredi 16 janvier 2026</span>
             </span>
-            <span className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-              <MapPin className="w-5 h-5 text-yellow-400" />
+            <span className="flex items-center gap-2 bg-white/10 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full backdrop-blur-sm">
+              <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400" />
               Yamoussoukro
             </span>
           </div>
         </div>
 
         {/* Main content grid */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center mb-10 md:mb-16">
           {/* Text content */}
-          <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-yellow-400/30 shadow-2xl">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center shadow-lg">
-                <Award className="w-8 h-8 text-cabtra-blue" />
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl md:rounded-3xl p-4 sm:p-6 md:p-8 border border-yellow-400/30 shadow-2xl">
+            <div className="flex items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center shadow-lg flex-shrink-0">
+                <Award className="w-6 h-6 sm:w-8 sm:h-8 text-cabtra-blue" />
               </div>
-              <div>
-                <p className="text-yellow-400 font-semibold">Décerné par</p>
-                <p className="text-white font-bold text-xl">OPAJEF</p>
-                <p className="text-white/80 text-sm">Organisation Panafricaine de la Jeunesse Francophone</p>
+              <div className="min-w-0">
+                <p className="text-yellow-400 font-semibold text-sm sm:text-base">Décerné par</p>
+                <p className="text-white font-bold text-lg sm:text-xl">OPAJEF</p>
+                <p className="text-white/80 text-xs sm:text-sm truncate">Organisation Panafricaine de la Jeunesse Francophone</p>
               </div>
             </div>
 
-            <div className="space-y-6 text-white/90 text-lg leading-relaxed">
+            <div className="space-y-4 sm:space-y-6 text-white/90 text-sm sm:text-base md:text-lg leading-relaxed">
               <p>
                 <span className="text-yellow-400 font-semibold">J'ai eu l'honneur de recevoir</span>, ce vendredi 16 janvier 2026 à Yamoussoukro, le <strong className="text-yellow-400">Super Prix National Éléphant d'Or</strong>, décerné par l'Organisation Panafricaine de la Jeunesse Francophone (OPAJEF).
               </p>
@@ -107,24 +107,24 @@ const DistinctionsSection = () => {
                 Cette distinction m'honore profondément et vient reconnaître un <strong className="text-yellow-400">engagement collectif</strong>, une vision et un travail portés au quotidien au sein de <strong className="text-cabtra-orange">CABTRA CI Group</strong>.
               </p>
 
-              <p>
+              <p className="hidden sm:block">
                 J'adresse mes sincères remerciements au <strong>Président National de l'OPAJEF, M. BANI Gilbert</strong>, ainsi qu'à l'ensemble des membres de l'organisation, aux personnalités présentes, à la société civile et aux médias pour cette marque d'estime.
               </p>
 
-              <div className="bg-gradient-to-r from-yellow-400/20 to-cabtra-orange/20 rounded-xl p-6 border-l-4 border-yellow-400">
-                <p className="italic font-medium">
+              <div className="bg-gradient-to-r from-yellow-400/20 to-cabtra-orange/20 rounded-xl p-4 sm:p-6 border-l-4 border-yellow-400">
+                <p className="italic font-medium text-sm sm:text-base">
                   "Cette reconnaissance renforce ma détermination à poursuivre mon engagement en faveur du <strong className="text-yellow-400">développement</strong>, de l'<strong className="text-yellow-400">entrepreneuriat</strong> et de la <strong className="text-yellow-400">jeunesse africaine</strong>."
                 </p>
               </div>
             </div>
 
-            <div className="mt-8 flex items-center gap-4">
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-cabtra-orange to-yellow-500 flex items-center justify-center text-white font-bold text-2xl shadow-lg border-4 border-yellow-400">
+            <div className="mt-6 sm:mt-8 flex items-center gap-3 sm:gap-4">
+              <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-cabtra-orange to-yellow-500 flex items-center justify-center text-white font-bold text-xl sm:text-2xl shadow-lg border-2 sm:border-4 border-yellow-400 flex-shrink-0">
                 KYJ
               </div>
-              <div>
-                <p className="text-white font-bold text-xl">KONAN Yao Joel</p>
-                <p className="text-yellow-400">Directeur Général - CABTRA CI Group</p>
+              <div className="min-w-0">
+                <p className="text-white font-bold text-base sm:text-xl">KONAN Yao Joel</p>
+                <p className="text-yellow-400 text-sm sm:text-base">Directeur Général - CABTRA CI Group</p>
               </div>
             </div>
           </div>
@@ -151,27 +151,27 @@ const DistinctionsSection = () => {
         </div>
 
         {/* Photo gallery */}
-        <div className="mb-8">
-          <h4 className="text-2xl font-bold text-center text-white mb-8 flex items-center justify-center gap-3">
-            <Star className="w-6 h-6 text-yellow-400" />
-            Moments de la cérémonie
-            <Star className="w-6 h-6 text-yellow-400" />
+        <div className="mb-6 sm:mb-8">
+          <h4 className="text-lg sm:text-2xl font-bold text-center text-white mb-4 sm:mb-8 flex items-center justify-center gap-2 sm:gap-3">
+            <Star className="w-4 h-4 sm:w-6 sm:h-6 text-yellow-400" />
+            <span>Moments de la cérémonie</span>
+            <Star className="w-4 h-4 sm:w-6 sm:h-6 text-yellow-400" />
           </h4>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-2 sm:gap-4">
             {images.slice(1).map((image, index) => (
               <div 
                 key={index}
-                className="relative group cursor-pointer overflow-hidden rounded-xl border-2 border-yellow-400/30 hover:border-yellow-400 transition-all duration-300 transform hover:scale-105 hover:z-10"
+                className="relative group cursor-pointer overflow-hidden rounded-lg sm:rounded-xl border-2 border-yellow-400/30 hover:border-yellow-400 transition-all duration-300 transform hover:scale-105 hover:z-10"
                 onClick={() => openLightbox(index + 1)}
               >
                 <img 
                   src={image.src} 
                   alt={image.alt}
-                  className="w-full h-40 object-cover"
+                  className="w-full h-20 sm:h-32 md:h-40 object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-cabtra-blue/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
-                  <p className="text-white text-sm font-medium">{image.alt}</p>
+                <div className="absolute inset-0 bg-gradient-to-t from-cabtra-blue/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-2 sm:p-3">
+                  <p className="text-white text-xs sm:text-sm font-medium line-clamp-2">{image.alt}</p>
                 </div>
               </div>
             ))}
