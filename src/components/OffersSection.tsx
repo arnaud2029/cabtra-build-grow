@@ -92,10 +92,10 @@ const OffersSection = () => {
         {/* Special Promotion Banner */}
         <div className="bg-gradient-accent rounded-2xl p-6 md:p-8 mb-12 text-white text-center">
           <h3 className="font-poppins font-bold text-2xl md:text-3xl mb-4">
-            🎉 Bonne Fête des Mères - KDO Spécial ! 🎉
+            🎉 Promo Anniversaire CABTRA-CI GROUPE ! 🎉
           </h3>
           <p className="text-lg opacity-90">
-            Réservez maintenant et bénéficiez d'un cadeau exceptionnel pour toutes les mères !
+            Profitez de nos offres exceptionnelles sur les terrains sécurisés à Yamoussoukro !
           </p>
         </div>
 

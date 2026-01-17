@@ -24,7 +24,7 @@ const Hero = () => {
           {/* Special Offer Badge */}
           <div className="inline-flex items-center bg-cabtra-orange/20 border border-cabtra-orange/30 rounded-full px-6 py-2 mb-8">
             <Calendar className="w-4 h-4 mr-2" />
-            <span className="text-sm font-medium">Offre Spéciale Fête des Mères - KDO Exceptionnel!</span>
+            <span className="text-sm font-medium">Promo Anniversaire CABTRA-CI - Offres Exceptionnelles!</span>
           </div>
 
           {/* Main Heading */}
