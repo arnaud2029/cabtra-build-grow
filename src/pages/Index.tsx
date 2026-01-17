@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import PromoBanner from '../components/PromoBanner';
 import OffersSection from '../components/OffersSection';
 import ServicesSection from '../components/ServicesSection';
+import DistinctionsSection from '../components/DistinctionsSection';
 import FAQSection from '../components/FAQSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
@@ -17,6 +18,7 @@ const Index = () => {
         <PromoBanner />
         <OffersSection />
         <ServicesSection />
+        <DistinctionsSection />
         <FAQSection />
         <ContactSection />
       </main>

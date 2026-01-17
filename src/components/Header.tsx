@@ -57,6 +57,9 @@ const Header = () => {
             <a href="#services" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
               Services
             </a>
+            <a href="#distinctions" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
+              Distinctions
+            </a>
             <a href="#contact" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
               Contact
             </a>
@@ -90,6 +93,9 @@ const Header = () => {
               </a>
               <a href="#services" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
                 Services
+              </a>
+              <a href="#distinctions" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
+                Distinctions
               </a>
               <a href="#contact" className="text-foreground hover:text-cabtra-orange transition-colors font-medium">
                 Contact
